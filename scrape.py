@@ -7,6 +7,11 @@
 # git add.
 # git commit -m "ur message"
 # copy paste the git code from github
+
+#1 change the code 
+# 2 git add .
+# 3 git commit -m "ur message"
+# 4 git push
 import json
 import requests  # type: ignore
 from bs4 import BeautifulSoup # type: ignore
