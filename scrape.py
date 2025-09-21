@@ -1,5 +1,13 @@
 #request=>get data from web (html,json xml)
-
+#git config --global user.name "'"
+#git config --global user.email ""
+#git init
+#git status=>if u want to check what are the status of files
+# git diff => if u want to check what are the changes
+# git add.
+# git commit -m "ur message"
+# copy paste the git code from github
+import json
 import requests  # type: ignore
 from bs4 import BeautifulSoup # type: ignore
 
@@ -33,6 +41,6 @@ def scrape_books(url):
 
 books=scrape_books(url)
 with open("books.json","w",encoding='utf-8')as f:
-    import json
+    
     json.dump(books,f,indent=4,ensure_ascii=False)
 
